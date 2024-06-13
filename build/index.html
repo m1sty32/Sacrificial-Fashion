@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sacrificial Fashion </title>
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+
+
+    <div class="tagline">
+        <img class="tagline__icon" src="./img/icons/ticket-percent.svg" alt="Icon">
+        <div class="tagline__desc">
+            Скидка 30% на весь магазин - ограниченное время!
+        </div>
+        <a href="#!" class="tagline__link">
+            Перейти к покупкам сейчас
+            <img src="./img/icons/arrow-right.svg" alt="Icon">
+        </a>
+
+        <button class="tagline__close">
+            <img src="./img/icons/close.svg" alt="Close">
+        </button>
+    </div>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__row">
+                <a href="" class="nav__logo logo">sacrificial fashion</a>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#!" class="nav__link">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <button href="#!" class="nav__link">Магазин <img src="./img/icons/chevron-down.svg"
+                                alt="arrow"></button>
+                    </li>
+                    <li class="nav__item">
+                        <button href="#!" class="nav__link">Товары <img src="./img/icons/chevron-down.svg"
+                                alt="arrow"></button>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#!" class="nav__link">Связаться с нами</a>
+                    </li>
+                </ul>
+
+                <div class="nav__btns">
+                    <button class="nav__btn">
+                        <img src="./img/icons/search.svg" alt="Search">
+                    </button>
+                    <button class="nav__btn">
+                        <img src="./img/icons/user.svg" alt="User">
+                    </button>
+                    <button class="nav__btn">
+                        <img src="./img/icons/cart.svg" alt="Cart">
+                        <span class="nav__btn-count">5</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__content">
+
+                <h1 class="hero__title">
+                    Одевайте<br>самую <span>красивую</span> одежду.
+                </h1>
+
+                <div class="hero__desc">
+                    <p>Наслаждайтесь одеждой как никогда раньше</p>
+                </div>
+
+                <div class="hero__link">
+                    <a href="#!" class="btn">Покупайте сейчас</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="arrivals">
+        <div class="container">
+            <div class="arrivals__row">
+                <div class="arrivals__title">
+                    <h2 class="headline-4">Новые поступления</h2>
+                </div>
+                <div class="arrivals__dots">
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="arrivals__slider">
+
+                <div class="swiper">
+                
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/01.jpg" srcset="./img/arrivals/01@2x.jpg 2x"
+                                        alt="SWEATSHIRTS">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">Maison Margiela - Unbrushed jersey sweatshirt</div>
+                                    <div class="card__price">Р39000</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/02.jpg" srcset="./img/arrivals/02@2x.jpg 2x"
+                                        alt="OTHER ACCESSORIES">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">MAison Margiela - Numeric Signature Cap</div>
+                                    <div class="card__price">Р20500</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/03.jpg" srcset="./img/arrivals/03@2x.jpg 2x"
+                                        alt="EYEWEAR">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">Maison Margiela X Gentle Monster MM101</div>
+                                    <div class="card__price">Р65000</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/04.jpg" srcset="./img/arrivals/04@2x.jpg 2x"
+                                        alt="TABI">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">Maison Margiela - Tabi Mary-Janes</div>
+                                    <div class="card__price">Р97500</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/05.jpg" srcset="./img/arrivals/05@2x.jpg 2x"
+                                        alt="BAG">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">Maison Margiela - Snatched hobo small</div>
+                                    <div class="card__price">Р152000</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/06.jpg" srcset="./img/arrivals/06@2x.jpg 2x"
+                                        alt="SHOES">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">BALENCIAGA - MEN'S STEROID BOOT IN BLACK</div>
+                                    <div class="card__price">Р120000</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/07.jpg" srcset="./img/arrivals/07@2x.jpg 2x"
+                                        alt="BAG">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">BALENCIAGA - SUPERBUSY LARGE SLING BAG IN BLACK</div>
+                                    <div class="card__price">Р190000</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/08.jpg" srcset="./img/arrivals/08@2x.jpg 2x"
+                                        alt="Sunglasses">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">BALENCIAGA - MASK BUTTERFLY SUNGLASSES IN BLACK</div>
+                                    <div class="card__price">Р95000</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/09.jpg" srcset="./img/arrivals/09@2x.jpg 2x"
+                                        alt="Earrings">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">BALENCIAGA - WOMEN'S B CHAIN XS EARRINGS IN SILVER</div>
+                                    <div class="card__price">Р77000</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="card">
+                                <div class="card__picture">
+                                    <img src="./img/arrivals/010.jpg" srcset="./img/arrivals/010@2x.jpg 2x"
+                                        alt="PUMP">
+                                    <div class="card__new">новинка</div>
+                                    <div class="card__fav">
+                                        <button class="btn-fav">
+                                            
+                                            <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="card__btn">
+                                        <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                                    </div>
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__rating">
+
+                                        <img src="./img/icons/star.svg" alt="Star">
+
+
+                                    </div>
+                                    <div class="card__title">BALENCIAGA - WOMEN'S HONEY 110MM PUMP IN BLACK</div>
+                                    <div class="card__price">Р45000</div>
+                                </div>
+                                <a href="#!" class="card__link"></a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collection">
+        <div class="container">
+            <div class="collection__title">
+                <h2 class="headline-4">Коллекция магазина</h2>
+            </div>
+            <div class="collection__grid">
+                <div class="plate plate--tall plate--01">
+                    <div class="plate__content">
+                        <h3 class="plate__title">Одежда</h3>
+                        <a href="#!" class="plate__link">
+                            Коллекция
+                            <img src="./img/icons/arrow-right-black.svg" alt="Arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="plate plate--02">
+                    <div class="plate__content">
+                        <h3 class="plate__title">Обувь</h3>
+                        <a href="#!" class="plate__link">
+                            Коллекция
+                            <img src="./img/icons/arrow-right-black.svg" alt="Arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="plate plate--03">
+                    <div class="plate__content">
+                        <h3 class="plate__title">Аксессуары</h3>
+                        <a href="#!" class="plate__link">
+                            Коллекция
+                            <img src="./img/icons/arrow-right-black.svg" alt="Arrow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bestseller">
+        <div class="container">
+            <div class="bestseller__title">
+                <h2 class="headline-4">Бестселлер</h2>
+            </div>
+            <div class="bestseller__cards">
+                <article class="card">
+                    <div class="card__picture">
+                        <img src="./img/bestseller/01.jpg" srcset="./img/bestseller/01@2x.jpg 2x" alt="JACKET">
+                        <div class="card__new">новинка</div>
+                        <div class="card__fav">
+                            <button class="btn-fav">
+                                
+                                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="card__btn">
+                            <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__desc">
+                        <div class="card__rating">
+
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+
+                        </div>
+                        <h3 class="card__title">BALENCIAGA - UNITY SPORTS ICON RACER JACKET IN BLACK</h3>
+                        <div class="card__price">Р100000</div>
+                    </div>
+                    <a href="#!" class="card__link"></a>
+                </article>
+                <article class="card">
+                    <div class="card__picture">
+                        <img src="./img/bestseller/02.jpg" srcset="./img/bestseller/02@2x.jpg 2x" alt="JACKET">
+                        <div class="card__new">новинка</div>
+                        <div class="card__fav">
+                            <button class="btn-fav">
+                                
+                                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="card__btn">
+                            <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__desc">
+                        <div class="card__rating">
+
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+
+                        </div>
+                        <h3 class="card__title">BALENCIAGA - BOXY JACKET IN BLACK</h3>
+                        <div class="card__price">P80000</div>
+                    </div>
+                    <a href="#!" class="card__link"></a>
+                </article>
+                <article class="card">
+                    <div class="card__picture">
+                        <img src="./img/bestseller/03.jpg" srcset="./img/bestseller/03@2x.jpg 2x" alt="PANTS">
+                        <div class="card__new">новинка</div>
+                        <div class="card__fav">
+                            <button class="btn-fav">
+                                
+                                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="card__btn">
+                            <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__desc">
+                        <div class="card__rating">
+
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+
+                        </div>
+                        <h3 class="card__title">BALENCIAGA - BAGGY SWEATPANTS IN BLACK</h3>
+                        <div class="card__price">P30000</div>
+                    </div>
+                    <a href="#!" class="card__link"></a>
+                </article>
+                <article class="card">
+                    <div class="card__picture">
+                        <img src="./img/bestseller/04.jpg" srcset="./img/bestseller/04@2x.jpg 2x" alt="PANTS">
+                        <div class="card__new">новинка</div>
+                        <div class="card__fav">
+                            <button class="btn-fav">
+                                
+                                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="card__btn">
+                            <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__desc">
+                        <div class="card__rating">
+
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+
+                        </div>
+                        <h3 class="card__title">BALENCIAGA - REGULAR FIT TAILORED PANTS IN BLACK</h3>
+                        <div class="card__price">P40000</div>
+                    </div>
+                    <a href="#!" class="card__link"></a>
+                </article>
+                <article class="card">
+                    <div class="card__picture">
+                        <img src="./img/bestseller/05.jpg" srcset="./img/bestseller/05@2x.jpg 2x" alt="MAXI">
+                        <div class="card__new">новинка</div>
+                        <div class="card__fav">
+                            <button class="btn-fav">
+                                
+                                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="card__btn">
+                            <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__desc">
+                        <div class="card__rating">
+
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+
+                        </div>
+                        <h3 class="card__title">BALENCIAGA - WOMEN'S MAXI DRESS IN BLACK/SILVER</h3>
+                        <div class="card__price">Р200000</div>
+                    </div>
+                    <a href="#!" class="card__link"></a>
+                </article>
+                <article class="card">
+                    <div class="card__picture">
+                        <img src="./img/bestseller/06.jpg" srcset="./img/bestseller/06@2x.jpg 2x" alt="JACKET">
+                        <div class="card__new">новинка</div>
+                        <div class="card__fav">
+                            <button class="btn-fav">
+                                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="card__btn">
+                            <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__desc">
+                        <div class="card__rating">
+
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+
+                        </div>
+                        <h3 class="card__title">BALENCIAGA - OVERSIZED JACKET IN BLACK</h3>
+                        <div class="card__price">Р115000</div>
+                    </div>
+                    <a href="#!" class="card__link"></a>
+                </article>
+                <article class="card">
+                    <div class="card__picture">
+                        <img src="./img/bestseller/07.jpg" srcset="./img/bestseller/07@2x.jpg 2x" alt="JACKET">
+                        <div class="card__new">новинка</div>
+                        <div class="card__fav">
+                            <button class="btn-fav">
+                                
+                                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="card__btn">
+                            <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__desc">
+                        <div class="card__rating">
+
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+
+                        </div>
+                        <h3 class="card__title">BALENCIAGA - PARIS TROPICAL LARGE FIT JACKET</h3>
+                        <div class="card__price">Р100000</div>
+                    </div>
+                    <a href="#!" class="card__link"></a>
+                </article>
+                <article class="card">
+                    <div class="card__picture">
+                        <img src="./img/bestseller/08.jpg" srcset="./img/bestseller/08@2x.jpg 2x" alt="PANTS">
+                        <div class="card__new">новинка</div>
+                        <div class="card__fav">
+                            <button class="btn-fav">
+                                
+                                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="card__btn">
+                            <button class="btn btn--small btn--wide">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__desc">
+                        <div class="card__rating">
+
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+                            <img src="./img/icons/star.svg" alt="Star">
+
+
+                        </div>
+                        <h3 class="card__title">BALENCIAGA - LOOSE TAILORED PANTS IN GREY/RED</h3>
+                        <div class="card__price">Р80000</div>
+                    </div>
+                    <a href="#!" class="card__link"></a>
+                </article>
+
+            </div>
+        </div>
+    </div>
+    <section class="promotion">
+        <div class="promotion__container">
+            <div class="promotion__content">
+
+                <div class="promotion__desc">
+                    <p class="promotion__tagline">ПРОДВИЖЕНИЕ</p>
+                    <h2 class="promotion__title">Поторопись! СКИДКА 40%</h2>
+                    <div class="promotion__text">
+                        <p>Тысячи красивой одежды ждет вас</p>
+                    </div>
+                </div>
+
+                <div class="promotion__timer">
+                    <p class="promotion__expires">Срок действия предложения истекает в:</p>
+                    <div class="timer">
+                        <div class="timer__el">
+                            <div class="timer__value" id="days"></div>
+                            <div class="timer__desc">Дни</div>
+                        </div>
+                        <div class="timer__el">
+                            <div class="timer__value" id="hours"></div>
+                            <div class="timer__desc">Часы</div>
+                        </div>
+                        <div class="timer__el">
+                            <div class="timer__value" id="minutes"></div>
+                            <div class="timer__desc">Минуты</div>
+                        </div>
+                        <div class="timer__el">
+                            <div class="timer__value" id="seconds"></div>
+                            <div class="timer__desc">Секунды</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promotion__btn">
+                    <a href="#!" class="btn btn--small">Покупайте сейчас</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="values">
+        <div class="container">
+            <div class="values__grid">
+                <div class="value">
+                    <img class="value__img" src="./img/values/shipping.svg" alt="">
+                    <h4 class="value__title">Бесплатная доставка</h4>
+                    <p class="value__desc">Заказ на сумму свыше 18000 рублей</p>
+                </div>
+                <div class="value">
+                    <img class="value__img" src="./img/values/finance.svg" alt="">
+                    <h4 class="value__title">Возврат денег</h4>
+                    <p class="value__desc">30 дней гарантии</p>
+                </div>
+                <div class="value">
+                    <img class="value__img" src="./img/values/lock.svg" alt="">
+                    <h4 class="value__title">Безопасные платежи</h4>
+                    <p class="value__desc">Обеспечено Сбербанк</p>
+                </div>
+                <div class="value">
+                    <img class="value__img" src="./img/values/call.svg" alt="">
+                    <h4 class="value__title">24/7 Поддержка</h4>
+                    <p class="value__desc">Поддержка по телефону и электронной почте</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter__content">
+
+            <h2 class="newsletter__title headline-4">Присоединяйтесь к нашей рассылке</h2>
+            <p class="newsletter__desc">Подпишитесь на предложения, новые продукты и рекламные акции</p>
+
+            <form action="" class="form-newsletter">
+                <img src="./img/icons/email.svg" alt="Email">
+                <input type="text" class="form-newsletter__input" placeholder="Электронная почта">
+                <button type="submit" class="form-newsletter__submit">Регистрация</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__row footer__row-top">
+                <div class="footer__title">
+                    <div class="footer__logo">sacrificial fashion<span>.</span></div>
+                    <div class="footer__separator"></div>
+                    <div class="footer__store">Clothing store</div>
+                </div>
+                <ul class="footer__nav">
+                    <li><a href="#!">Главная</a></li>
+                    <li><a href="#!">Магазин</a></li>
+                    <li><a href="#!">Товары</a></li>
+                    <li><a href="#!">Блог</a></li>
+                    <li><a href="#!">Связаться с нами</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__row footer__row--border">
+                <div class="footer__copyrights">
+                    <p>Copyright © 2023 sacrificial fashion. All rights reserved</p>
+                    <a href="#!">Privacy Policy</a>
+                    <a href="#!">Terms of Use</a>
+                </div>
+
+                <div class="footer__socials">
+                    <a href="#!"><img src="./img/socials/instagram.svg" alt="Social"></a>
+                    <a href="#!"><img src="./img/socials/facebook.svg" alt="Social"></a>
+                    <a href="#!"><img src="./img/socials/youtube.svg" alt="Social"></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
